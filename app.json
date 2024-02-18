@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "My Recipe Book",
+    "slug": "MealsApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.chamikap.MealsApp"
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.chamikap.MealsApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a1d7d6db-8083-4f30-8193-da21693880e8"
+      }
+    }
+  }
+}
